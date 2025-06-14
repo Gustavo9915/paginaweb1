@@ -1,0 +1,82 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.titulo h1{
+    font-size: 90px;
+    color: #ff33f9;
+    text-align: center;
+}
+.titulo{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.imagenflex{
+    display: flex;
+    flex-direction: row;
+}
+.imagenPublicacion{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.fechaPublicacion{
+    color: #ff3364;
+    font-size: 40px;
+}
+.description{
+    font-size: 50px;
+    color: blue;
+}
+.contacto img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+}
+.contacto h1{
+    font-size: 60px
+}
+.contacto p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.imagen{
+    width: 400px;
+}
+.row{
+    flex-wrap: wrap;
+}
+.logo{
+    height: auto;
+    width: 75px;
+}
+.navbar{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+.ul{
+    display: flex;
+    list-style-type: none;
+}
+.li{
+    padding-left: 290px;
+    font-size: x-large;
+}
+.container{
+    margin-left: 870px;
+}
+.mensaje{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+.mensaje2{
+    color: chartreuse;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
