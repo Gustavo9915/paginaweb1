@@ -1,20 +1,21 @@
 *{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:"kapakana", cursive;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
 }
 .titulo h1{
+
     font-size: 90px;
     color: #ff33f9;
-    text-align: center;
+    text-align: -webkit-center;
 }
-.titulo{
+.titulo h2 {
     color: black;
     font-size: 50px;
-    text-align: center;
+    text-align:  -webkit-center;
 }
-.imagenflex{
+.imagenFlex{
     display: flex;
     flex-direction: row;
 }
@@ -29,7 +30,7 @@
 }
 .description{
     font-size: 50px;
-    color: blue;
+    color: #333fff;
 }
 .contacto img{
     display: flex;
@@ -69,14 +70,4 @@
 }
 .container{
     margin-left: 870px;
-}
-.mensaje{
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 60px;
-}
-.mensaje2{
-    color: chartreuse;
-    font-size: 80px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
