@@ -4,6 +4,23 @@
   font-weight: weight;
   font-style: normal;
 }
+.row{
+    flex-wrap: wrap;
+}
+.navbar{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding-left: 290px;
+    font-size: x-large;
+}
 .titulo h1{
 
     font-size: 90px;
@@ -48,26 +65,12 @@
 .imagen{
     width: 400px;
 }
-.row{
-    flex-wrap: wrap;
-}
+
 .logo{
     height: auto;
     width: 75px;
 }
-.navbar{
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-direction: row;
-}
-.ul{
-    display: flex;
-    list-style-type: none;
-}
-.li{
-    padding-left: 290px;
-    font-size: x-large;
-}
+
 .container{
     margin-left: 870px;
 }
